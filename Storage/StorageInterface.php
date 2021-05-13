@@ -34,7 +34,7 @@ interface StorageInterface
      *
      * @return bool Whether the storage has a value for this key
      */
-    public function has($key);
+    public function has(string $key);
 
     /**
      * Returns the value for a key.
@@ -44,7 +44,7 @@ interface StorageInterface
      *
      * @return mixed|null The value in the storage or default if set or null if not found
      */
-    public function get($key, $default = null);
+    public function get(string $key, $default = null);
 
     /**
      * Sets a value in the storage.
@@ -52,14 +52,14 @@ interface StorageInterface
      * @param string $key   A unique key
      * @param string $value The value to storage
      */
-    public function set($key, $value);
+    public function set(string $key, $value);
 
     /**
      * Removes a value from the storage.
      *
      * @param string $key A unique key
      */
-    public function remove($key);
+    public function remove(string $key);
 
     /**
      * Clears all values from current domain.
