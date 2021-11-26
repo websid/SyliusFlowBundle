@@ -21,11 +21,11 @@
     ],
     "require": {
         "php": "^7.3",
-        "symfony/framework-bundle": "^5.0"
+        "symfony/framework-bundle": "^5.3"
     },
     "require-dev": {
         "phpspec/phpspec": "^7.0",
-        "symfony/yaml": "^5.0"
+        "symfony/yaml": "^5.3"
     },
     "config": {
         "bin-dir": "bin"
